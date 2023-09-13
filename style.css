@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  33px 9%;
+    background: transparent;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navlist{
+    display: flex;  
+}
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+#menu-icon{
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #003951 5%, #005c82 28.53%,  #C2B280 75.52%);
+    position:flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+
+}
+section{
+    padding: 0 19%;
+    color: white;
+}
+.container-text h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.container-img img{
+    width:  500px;
+    height:  auto;
+    margin-left: 35%;
+    border-radius: 50%;
+    transition: all .50s ease;
+}
+.container-img img:hover{
+    transform: translateY(-5px);
+}
+.icons{
+    position: absolute;
+    bottom: 15%;
+    left: 95%;
+    transform: translateY(50%);     
+}
+.icons i{
+    display: block;
+    margin: 25px 0;
+    font-size: 24px;
+    color: white;
+    transition: all .50s ease;
+}
+.icons i:hover{
+    color: #C2B280;
+    transform: translateY(-5px);
+
+}
+.container-text h1{
+    font-size: 38px; 
+}
+.study{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  33px 9%;
+    background: transparent;
+    
+}
+.container-edu{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #003951 5%, #005c82 28.53%,  #C2B280 75.52%);
+    position:flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+}
+.container-edu h1{
+    font-size: 40px;   
+}
+.wrk{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  33px 9%;
+    background: transparent;
+}
+.container-wrk{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #003951 5%, #005c82 28.53%,  #C2B280 75.52%);
+    position:flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+}
+.customer, .assistant{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.skll{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  33px 9%;
+    background: transparent;
+}
+.container-skll{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #003951 5%, #005c82 28.53%,  #C2B280 75.52%);
+    position:flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+}
+.awrd{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  33px 9%;
+    background: transparent;
+}
+.container-awrd{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #003951 5%, #005c82 28.53%,  #C2B280 75.52%);
+    position:flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items:center;
+}
+.employee, .volunteer, .salesperson, .outsanding, .community{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: -10%;
+
+}
+
+
+
+
